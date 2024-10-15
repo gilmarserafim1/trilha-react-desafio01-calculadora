@@ -1,0 +1,17 @@
+.screen {
+    width: 320px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-right: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .number {
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+  }

@@ -1,12 +1,11 @@
+import './styles.css'
 
-import { ButtonContainer } from './styles';
-
-const Button = ({label, onClick}) => {
+function Button({text, backgroundColor, color = "white", onClick}) {
     return (
-      <ButtonContainer onClick={onClick} type="button">
-       {label}
-      </ButtonContainer>
+        <div onClick={onClick} className="button" style={{backgroundColor: backgroundColor}}>
+            <h3 className="text" style={{color: color}}>{text}</h3>
+        </div>    
     );
-  }
-  
-  export default Button;
+}
+
+export default Button;
